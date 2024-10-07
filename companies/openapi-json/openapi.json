@@ -1,0 +1,151 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "companies",
+    "version": ""
+  },
+  "paths": {
+    "/{saasguid}/{saasenv}/companies": {
+      "get": {
+        "description": "Get list of all companies in the selected environment. More information how to work with companies can be found [here](/systemservices/companies).",
+        "operationId": "companies_getCompanies",
+        "tags": [
+          "Companies"
+        ],
+        "parameters": [
+          {
+            "name": "saasguid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/SaasGuid"
+            }
+          },
+          {
+            "name": "saasenv",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/SaasEnv"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Companies"
+                },
+                "examples": {
+                  "Example1": {
+                    "value": {
+                      "value": [
+                        {
+                          "id": "17ff1351-d07d-4b85-8957-b4b585f47aad",
+                          "systemVersion": "24.0.16410.18056",
+                          "name": "CRONUS International Ltd.",
+                          "displayName": ""
+                        },
+                        {
+                          "id": "872336d7-5183-4c0b-9b47-755f3d6d77e7",
+                          "systemVersion": "24.0.16410.18056",
+                          "name": "TestCompany",
+                          "displayName": "TestCompany"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get all companies",
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CompanyResponse": {
+        "title": "CompanyResponse",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "systemVersion": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "displayName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "systemVersion",
+          "name",
+          "displayName"
+        ]
+      },
+      "Companies": {
+        "title": "Companies",
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CompanyResponse"
+            }
+          }
+        },
+        "required": [
+          "value"
+        ]
+      },
+      "ApiVersionDate": {
+        "title": "ApiVersionDate",
+        "type": "string",
+        "format": "date",
+        "description": "The x-api-version header is to specify which version of the API a client wants to interact with. This allows the server to provide different responses or behaviors based on the version provided. Version is a date in the format \"YYYY-MM-DD\". When not specified, the latest version is assumed."
+      },
+      "SaasGuid": {
+        "title": "SaasGuid",
+        "type": "string",
+        "description": "A unique identifier (GUID) for the Business Central tenant in the Software as a Service (SaaS) environment. [More details.](/url-paths#1-saasguid-saas-guid)"
+      },
+      "SaasEnv": {
+        "title": "SaasEnv",
+        "type": "string",
+        "description": "Specifies which environment of the Business Central tenant you want to access. [More details.](/url-paths#2-saasenv-saas-environment)"
+      },
+      "Company": {
+        "title": "Company",
+        "type": "string",
+        "description": "The name of the specific company within the chosen Business Central environment. [More details.](/url-paths#3-company)"
+      }
+    },
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.npretail.app",
+      "description": "Production"
+    }
+  ]
+}
