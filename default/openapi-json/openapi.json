@@ -19,6 +19,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleAddCard": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -27,6 +33,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleAddCard": {
+                "value": "production"
+              }
             }
           },
           {
@@ -35,6 +47,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleAddCard": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -125,6 +143,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleReplaceCard": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -133,6 +157,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleReplaceCard": {
+                "value": "production"
+              }
             }
           },
           {
@@ -141,6 +171,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleReplaceCard": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -254,6 +290,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -262,6 +304,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "production"
+              }
             }
           },
           {
@@ -270,6 +318,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -356,6 +410,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -364,6 +424,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "production"
+              }
             }
           },
           {
@@ -372,6 +438,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetCard": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -458,6 +530,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleRegisterArrival": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -466,6 +544,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleRegisterArrival": {
+                "value": "production"
+              }
             }
           },
           {
@@ -474,6 +558,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleRegisterArrival": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -545,6 +635,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -553,6 +649,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -561,6 +663,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -632,6 +740,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -640,6 +754,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -648,6 +768,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -712,6 +838,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMembershipHistory": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -720,6 +852,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMembershipHistory": {
+                "value": "production"
+              }
             }
           },
           {
@@ -728,6 +866,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMembershipHistory": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -806,6 +950,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleActivateMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -814,6 +964,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleActivateMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -822,6 +978,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleActivateMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -900,6 +1062,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleCancelMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -908,6 +1076,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleCancelMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -916,6 +1090,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleCancelMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1011,6 +1191,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetRenewOptions": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1019,6 +1205,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetRenewOptions": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1027,6 +1219,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetRenewOptions": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1093,6 +1291,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleRenewMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1101,6 +1305,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleRenewMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1109,6 +1319,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleRenewMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1217,6 +1433,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetUpgradeOptions": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1225,6 +1447,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetUpgradeOptions": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1233,6 +1461,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetUpgradeOptions": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1299,6 +1533,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleUpgradeMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1307,6 +1547,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleUpgradeMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1315,6 +1561,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleUpgradeMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1423,6 +1675,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetExtendOptions": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1431,6 +1689,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetExtendOptions": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1439,6 +1703,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetExtendOptions": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1505,6 +1775,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleExtendMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1513,6 +1789,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleExtendMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1521,6 +1803,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleExtendMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1629,6 +1917,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleAddMember": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1637,6 +1931,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleAddMember": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1645,6 +1945,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleAddMember": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1777,6 +2083,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMember": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1785,6 +2097,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMember": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1793,6 +2111,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMember": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1887,6 +2211,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMemberNumber": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -1895,6 +2225,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMemberNumber": {
+                "value": "production"
+              }
             }
           },
           {
@@ -1903,6 +2239,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMemberNumber": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -1997,6 +2339,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleBlockMember": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2005,6 +2353,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleBlockMember": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2013,6 +2367,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleBlockMember": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2082,6 +2442,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleUnblockMember": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2090,6 +2456,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleUnblockMember": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2098,6 +2470,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleUnblockMember": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2167,6 +2545,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleUpdateMember": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2175,6 +2559,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleUpdateMember": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2183,6 +2573,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleUpdateMember": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2282,6 +2678,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMemberImage": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2290,6 +2692,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMemberImage": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2298,6 +2706,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMemberImage": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2349,6 +2763,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleSetMemberImage": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2357,6 +2777,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleSetMemberImage": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2365,6 +2791,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleSetMemberImage": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2435,6 +2867,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleFindMembers": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2443,6 +2881,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleFindMembers": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2451,6 +2895,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleFindMembers": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2641,6 +3091,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleMembership1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2649,6 +3105,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleMembership1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2657,6 +3119,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleMembership1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           }
         ],
@@ -2723,6 +3191,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMembershipId": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2731,6 +3205,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMembershipId": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2739,6 +3219,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMembershipId": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2802,6 +3288,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleGetMembershipNumber": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2810,6 +3302,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleGetMembershipNumber": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2818,6 +3316,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleGetMembershipNumber": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2881,6 +3385,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleBlockMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2889,6 +3399,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleBlockMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2897,6 +3413,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleBlockMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -2960,6 +3482,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleUnblockMembership": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -2968,6 +3496,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleUnblockMembership": {
+                "value": "production"
+              }
             }
           },
           {
@@ -2976,6 +3510,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleUnblockMembership": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3039,6 +3579,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "GetMembershipMembers": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3047,6 +3593,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "GetMembershipMembers": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3055,6 +3607,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "GetMembershipMembers": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3149,6 +3707,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleResolveIdentifier": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3157,6 +3721,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleResolveIdentifier": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3165,6 +3735,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleResolveIdentifier": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3210,6 +3786,119 @@
         "summary": "Resolve Member Identifier"
       }
     },
+    "/{saasguid}/{saasenv}/{company}/companies": {
+      "get": {
+        "description": "Get list of all companies in the selected environment. More information how to work with companies can be found [here](/systemservices/companies).",
+        "operationId": "systemservices_companies_getCompanies",
+        "tags": [
+          "SystemservicesCompanies"
+        ],
+        "parameters": [
+          {
+            "name": "saasguid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
+            }
+          },
+          {
+            "name": "saasenv",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
+            }
+          },
+          {
+            "name": "company",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Company"
+            }
+          },
+          {
+            "name": "saasguid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
+            }
+          },
+          {
+            "name": "saasenv",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/systemservicesCompanies"
+                },
+                "examples": {
+                  "Example1": {
+                    "value": {
+                      "value": [
+                        {
+                          "id": "17ff1351-d07d-4b85-8957-b4b585f47aad",
+                          "systemVersion": "24.0.16410.18056",
+                          "name": "CRONUS International Ltd.",
+                          "displayName": ""
+                        },
+                        {
+                          "id": "872336d7-5183-4c0b-9b47-755f3d6d77e7",
+                          "systemVersion": "24.0.16410.18056",
+                          "name": "TestCompany",
+                          "displayName": "TestCompany"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get all companies",
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
+      }
+    },
     "/{saasguid}/{saasenv}/{company}/helloworld": {
       "get": {
         "description": "Hello World provides a simple, data-agnostic method to test the API connection, ensuring that your integration is set up correctly and functioning as expected.",
@@ -3224,6 +3913,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3232,6 +3927,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3240,6 +3941,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           }
         ],
@@ -3284,6 +3991,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleCapacity1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3292,6 +4005,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleCapacity1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3300,6 +4019,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleCapacity1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3477,6 +4202,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3485,6 +4216,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3493,6 +4230,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleCatalog1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3586,6 +4329,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleCreateReservation1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3594,6 +4343,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleCreateReservation1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3602,6 +4357,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleCreateReservation1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           }
         ],
@@ -3711,6 +4472,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3719,6 +4486,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3727,6 +4500,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -3848,6 +4627,15 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              },
+              "Example2": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -3856,6 +4644,15 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              },
+              "Example2": {
+                "value": "production"
+              }
             }
           },
           {
@@ -3864,6 +4661,15 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              },
+              "Example2": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4016,6 +4822,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4024,6 +4836,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4032,6 +4850,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4084,6 +4908,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4092,6 +4922,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4100,6 +4936,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4153,6 +4995,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "ExampleConfirmReservation1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4161,6 +5009,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "ExampleConfirmReservation1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4169,6 +5023,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "ExampleConfirmReservation1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4288,6 +5148,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4296,6 +5162,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4304,6 +5176,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4403,6 +5281,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4411,6 +5295,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4419,6 +5309,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4513,6 +5409,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4521,6 +5423,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4529,6 +5437,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4582,6 +5496,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4590,6 +5510,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4598,6 +5524,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4671,6 +5603,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4679,6 +5617,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4687,6 +5631,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4759,6 +5709,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4767,6 +5723,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4775,6 +5737,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4892,6 +5860,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4900,6 +5874,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4908,6 +5888,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -4979,6 +5965,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasGuid"
+            },
+            "example": "01234567-89ab-cdef-0123-456789abcdef",
+            "examples": {
+              "Example1": {
+                "value": "01234567-89ab-cdef-0123-456789abcdef"
+              }
             }
           },
           {
@@ -4987,6 +5979,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/SaasEnv"
+            },
+            "example": "production",
+            "examples": {
+              "Example1": {
+                "value": "production"
+              }
             }
           },
           {
@@ -4995,6 +5993,12 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/Company"
+            },
+            "example": "CRONUS%20International%20Ltd.",
+            "examples": {
+              "Example1": {
+                "value": "CRONUS%20International%20Ltd."
+              }
             }
           },
           {
@@ -6726,6 +7730,46 @@
         "title": "membershipstypesItemMemberType",
         "type": "string",
         "description": "Type of membership item."
+      },
+      "systemservicesCompanyResponse": {
+        "title": "systemservicesCompanyResponse",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "systemVersion": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "displayName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "systemVersion",
+          "name",
+          "displayName"
+        ]
+      },
+      "systemservicesCompanies": {
+        "title": "systemservicesCompanies",
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/systemservicesCompanyResponse"
+            }
+          }
+        },
+        "required": [
+          "value"
+        ]
       },
       "systemservicesHelloWorld": {
         "title": "systemservicesHelloWorld",
