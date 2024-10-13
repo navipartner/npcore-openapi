@@ -3788,7 +3788,7 @@
     },
     "/{saasguid}/{saasenv}/{company}/companies": {
       "get": {
-        "description": "Get list of all companies in the selected environment. More information how to work with companies can be found [here](/systemservices/companies).",
+        "description": "Get list of all companies in the selected environment. More information how to work with companies can be found [here](/api-reference/system-services/companies).",
         "operationId": "systemservices_companies_getCompanies",
         "tags": [
           "SystemservicesCompanies"
